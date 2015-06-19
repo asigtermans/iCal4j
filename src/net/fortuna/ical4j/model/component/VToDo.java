@@ -34,9 +34,7 @@ package net.fortuna.ical4j.model.component;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.text.ParseException;
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 
 import net.fortuna.ical4j.model.Component;
 import net.fortuna.ical4j.model.ComponentList;
@@ -146,7 +144,6 @@ public class VToDo extends CalendarComponent {
 
     private static final long serialVersionUID = -269658210065896668L;
 
-    private final Map methodValidators = new HashMap();
     {
         methodValidators.put(Method.ADD, new AddValidator());
         methodValidators.put(Method.CANCEL, new CancelValidator());
@@ -345,13 +342,6 @@ public class VToDo extends CalendarComponent {
         if (recurse) {
             validateProperties();
         }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected Validator getValidator(Method method) {
-        return (Validator) methodValidators.get(method);
     }
 
     /**

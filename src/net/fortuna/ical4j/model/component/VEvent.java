@@ -34,9 +34,7 @@ package net.fortuna.ical4j.model.component;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.text.ParseException;
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 
 import net.fortuna.ical4j.model.Component;
 import net.fortuna.ical4j.model.ComponentList;
@@ -223,7 +221,6 @@ public class VEvent extends CalendarComponent {
 
     private static final long serialVersionUID = 2547948989200697335L;
 
-    private final Map methodValidators = new HashMap();
     {
         methodValidators.put(Method.ADD, new AddValidator());
         methodValidators.put(Method.CANCEL, new CancelValidator());
@@ -471,13 +468,6 @@ public class VEvent extends CalendarComponent {
         if (recurse) {
             validateProperties();
         }
-    }
-    
-    /**
-     * {@inheritDoc}
-     */
-    protected Validator getValidator(Method method) {
-        return (Validator) methodValidators.get(method);
     }
     
     /**
@@ -1309,14 +1299,14 @@ public class VEvent extends CalendarComponent {
      * @throws URISyntaxException where an invalid URI is encountered
      * @throws ParseException where an error occurs parsing data
      */
-    public final VEvent getOccurrence(final Date date) throws IOException,
+    public final CalendarComponent getOccurrence(final Date date) throws IOException,
         URISyntaxException, ParseException {
         
         final PeriodList consumedTime = getConsumedTime(date, date);
         for (final Iterator i = consumedTime.iterator(); i.hasNext();) {
             final Period p = (Period) i.next();
             if (p.getStart().equals(date)) {
-                final VEvent occurrence = (VEvent) this.copy();
+                final CalendarComponent occurrence = (CalendarComponent) this.copy();
                 occurrence.getProperties().add(new RecurrenceId(date));
                 return occurrence;
             }

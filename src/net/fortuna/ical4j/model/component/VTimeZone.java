@@ -44,7 +44,6 @@ import net.fortuna.ical4j.model.PropertyList;
 import net.fortuna.ical4j.model.ValidationException;
 import net.fortuna.ical4j.model.Validator;
 import net.fortuna.ical4j.model.property.LastModified;
-import net.fortuna.ical4j.model.property.Method;
 import net.fortuna.ical4j.model.property.TzId;
 import net.fortuna.ical4j.model.property.TzUrl;
 import net.fortuna.ical4j.util.PropertyValidator;
@@ -230,13 +229,6 @@ public class VTimeZone extends CalendarComponent {
         if (recurse) {
             validateProperties();
         }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected Validator getValidator(Method method) {
-        return itipValidator;
     }
 
     /**

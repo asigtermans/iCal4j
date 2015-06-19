@@ -44,7 +44,6 @@ import net.fortuna.ical4j.model.property.Action;
 import net.fortuna.ical4j.model.property.Attach;
 import net.fortuna.ical4j.model.property.Description;
 import net.fortuna.ical4j.model.property.Duration;
-import net.fortuna.ical4j.model.property.Method;
 import net.fortuna.ical4j.model.property.Repeat;
 import net.fortuna.ical4j.model.property.Summary;
 import net.fortuna.ical4j.model.property.Trigger;
@@ -286,13 +285,6 @@ public class VAlarm extends CalendarComponent {
         if (recurse) {
             validateProperties();
         }
-    }
-    
-    /**
-     * {@inheritDoc}
-     */
-    protected Validator getValidator(Method method) {
-        return itipValidator;
     }
     
     private class AudioValidator implements Validator {

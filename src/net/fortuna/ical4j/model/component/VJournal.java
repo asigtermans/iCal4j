@@ -31,9 +31,6 @@
  */
 package net.fortuna.ical4j.model.component;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import net.fortuna.ical4j.model.Date;
 import net.fortuna.ical4j.model.Property;
 import net.fortuna.ical4j.model.PropertyList;
@@ -119,7 +116,6 @@ public class VJournal extends CalendarComponent {
 
     private static final long serialVersionUID = -7635140949183238830L;
 
-    private final Map methodValidators = new HashMap();
     {
         methodValidators.put(Method.ADD, new AddValidator());
         methodValidators.put(Method.CANCEL, new CancelValidator());
@@ -222,13 +218,6 @@ public class VJournal extends CalendarComponent {
         if (recurse) {
             validateProperties();
         }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected Validator getValidator(Method method) {
-        return (Validator) methodValidators.get(method);
     }
 
     /**

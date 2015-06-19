@@ -31,6 +31,9 @@
  */
 package net.fortuna.ical4j.model.component;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import net.fortuna.ical4j.model.Component;
 import net.fortuna.ical4j.model.PropertyList;
 import net.fortuna.ical4j.model.ValidationException;
@@ -56,6 +59,8 @@ public abstract class CalendarComponent extends Component {
      * Validator instance that does nothing.
      */
     protected static final Validator EMPTY_VALIDATOR = new EmptyValidator();
+
+	protected final Map methodValidators = new HashMap();
     
     /**
      * @param name component name
@@ -91,7 +96,9 @@ public abstract class CalendarComponent extends Component {
      * @param method a method to validate on
      * @return a validator for the specified method or null if the method is not supported
      */
+    /** Refactoring: removed abstract, implemented here
     protected abstract Validator getValidator(Method method);
+    **/
     
     /**
      * Apply validation for METHOD=PUBLISH.
@@ -165,7 +172,14 @@ public abstract class CalendarComponent extends Component {
         validate(Method.DECLINE_COUNTER);
     }
     
-    private static class EmptyValidator implements Validator {
+    /**
+	 * {@inheritDoc}
+	 */
+	protected Validator getValidator(Method method) {
+	    return (Validator) methodValidators.get(method);
+	}
+
+	private static class EmptyValidator implements Validator {
         
 		private static final long serialVersionUID = 1L;
 

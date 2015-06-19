@@ -31,9 +31,7 @@
  */
 package net.fortuna.ical4j.model.component;
 
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 
 import net.fortuna.ical4j.model.Component;
 import net.fortuna.ical4j.model.ComponentList;
@@ -220,7 +218,6 @@ public class VFreeBusy extends CalendarComponent {
 
     private static final long serialVersionUID = 1046534053331139832L;
 
-    private final Map methodValidators = new HashMap();
     {
         methodValidators.put(Method.PUBLISH, new PublishValidator());
         methodValidators.put(Method.REPLY, new ReplyValidator());
@@ -571,13 +568,6 @@ public class VFreeBusy extends CalendarComponent {
         if (recurse) {
             validateProperties();
         }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected Validator getValidator(Method method) {
-        return (Validator) methodValidators.get(method);
     }
 
     /**
