@@ -35,9 +35,7 @@ import java.text.ParseException;
 
 import net.fortuna.ical4j.model.Date;
 import net.fortuna.ical4j.model.ParameterList;
-import net.fortuna.ical4j.model.PropertyFactoryImpl;
 import net.fortuna.ical4j.model.TimeZone;
-import net.fortuna.ical4j.model.ValidationException;
 
 /**
  * $Id$
@@ -106,100 +104,42 @@ import net.fortuna.ical4j.model.ValidationException;
  * 
  * @author Ben Fortuna
  */
-public class DtStart extends DateProperty {
+public class DtStart extends DtStartEnd {
+	
+	private static final long serialVersionUID = -5707097476081111815L;
+	private static final String property = DTSTART;
 
-    private static final long serialVersionUID = -5707097476081111815L;
-
-    /**
-     * Default constructor. The time value is initialised to the time of instantiation.
-     */
     public DtStart() {
-        super(DTSTART, PropertyFactoryImpl.getInstance());
-    }
+		super(property);
+	}
 
-    /**
-     * Creates a new DTSTART property initialised with the specified timezone.
-     * @param timezone initial timezone
-     */
-    public DtStart(TimeZone timezone) {
-        super(DTSTART, timezone, PropertyFactoryImpl.getInstance());
-    }
+	public DtStart(Date time, boolean utc) {
+		super(property, time, utc);
+	}
 
-    /**
-     * @param aValue a value string for this component
-     * @throws ParseException where the specified value string is not a valid date-time/date representation
-     */
-    public DtStart(final String aValue) throws ParseException {
-        super(DTSTART, PropertyFactoryImpl.getInstance());
-        setValue(aValue);
-    }
+	public DtStart(Date aDate) {
+		super(property, aDate);
+	}
 
-    /**
-     * Creates a new DTSTART property initialised with the specified timezone and value.
-     * @param value a string representation of a DTSTART value
-     * @param timezone initial timezone
-     * @throws ParseException where the specified value is not a valid string
-     * representation
-     */
-    public DtStart(String value, TimeZone timezone) throws ParseException {
-        super(DTSTART, timezone, PropertyFactoryImpl.getInstance());
-        setValue(value);
-    }
+	public DtStart(ParameterList aList, Date aDate) {
+		super(property, aList, aDate);
+	}
 
-    /**
-     * @param aList a list of parameters for this component
-     * @param aValue a value string for this component
-     * @throws ParseException where the specified value string is not a valid date-time/date representation
-     */
-    public DtStart(final ParameterList aList, final String aValue)
-            throws ParseException {
-        super(DTSTART, aList, PropertyFactoryImpl.getInstance());
-        setValue(aValue);
-    }
+	public DtStart(ParameterList aList, String aValue)
+			throws ParseException {
+		super(property, aList, aValue);
+	}
 
-    /**
-     * Constructor. Date or Date-Time format is determined based on the presence of a VALUE parameter.
-     * @param aDate a date
-     */
-    public DtStart(final Date aDate) {
-        super(DTSTART, PropertyFactoryImpl.getInstance());
-        setDate(aDate);
-    }
+	public DtStart(String value, TimeZone timezone)
+			throws ParseException {
+		super(property, value, timezone);
+	}
 
-    /**
-     * Constructs a new DtStart with the specified time.
-     * @param time the time of the DtStart
-     * @param utc specifies whether time is UTC
-     */
-    public DtStart(final Date time, final boolean utc) {
-        super(DTSTART, PropertyFactoryImpl.getInstance());
-        setDate(time);
-        setUtc(utc);
-    }
+	public DtStart(String aValue) throws ParseException {
+		super(property, aValue);
+	}
 
-    /**
-     * Constructor. Date or Date-Time format is determined based on the presence of a VALUE parameter.
-     * @param aList a list of parameters for this component
-     * @param aDate a date
-     */
-    public DtStart(final ParameterList aList, final Date aDate) {
-        super(DTSTART, aList, PropertyFactoryImpl.getInstance());
-        setDate(aDate);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public final void validate() throws ValidationException {
-        super.validate();
-
-        /*
-         * ; the following are optional, ; but MUST NOT occur more than once (";" "VALUE" "=" ("DATE-TIME" / "DATE")) /
-         * (";" tzidparam) /
-         */
-
-        /*
-         * ; the following is optional, ; and MAY occur more than once (";" xparam)
-         */
-    }
+	public DtStart(TimeZone timezone) {
+		super(property, timezone);
+	}   
 }

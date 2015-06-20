@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="net.fortuna.ical4j.model.property.Attach" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Attach.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="179" x="207" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.fortuna.ical4j.model.property.Completed" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Completed.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="226" x="11346" y="715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.fortuna.ical4j.model.property.Attendee" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Attendee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="278" width="194" x="426" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.fortuna.ical4j.model.property.TzUrl" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/TzUrl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="174" x="660" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.fortuna.ical4j.model.property.Uid" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Uid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="164" x="874" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.fortuna.ical4j.model.property.Action" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Action.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="179" x="2541" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="net.fortuna.ical4j.model.property.RDate" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/RDate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="296" width="203" x="10423" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="net.fortuna.ical4j.model.property.Priority.ImmutablePriority" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Priority.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="159" x="11149" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="net.fortuna.ical4j.model.property.FreeBusy" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/FreeBusy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="220" x="1078" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="net.fortuna.ical4j.model.property.TzName" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/TzName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="191" x="1338" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="net.fortuna.ical4j.model.property.ExRule" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/ExRule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="186" x="1569" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="net.fortuna.ical4j.model.property.Duration" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Duration.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="278" width="192" x="2077" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="net.fortuna.ical4j.model.property.ExtendedAddress" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/ExtendedAddress.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="242" x="1795" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="net.fortuna.ical4j.model.property.Transp" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Transp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="183" x="8729" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="net.fortuna.ical4j.model.property.Status.ImmutableStatus" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Status.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="159" x="13134" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="net.fortuna.ical4j.model.property.BusyType" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/BusyType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="199" x="9955" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="net.fortuna.ical4j.model.property.LastModified" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/LastModified.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="236" x="11612" y="715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="net.fortuna.ical4j.model.property.Location" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Location.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="192" x="2309" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="net.fortuna.ical4j.model.property.Geo" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Geo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="332" width="265" x="2800" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="net.fortuna.ical4j.model.property.TzOffsetTo" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/TzOffsetTo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="278" width="220" x="3351" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="net.fortuna.ical4j.model.property.Postalcode" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Postalcode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="206" x="3105" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="net.fortuna.ical4j.model.property.Due" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Due.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="168" x="12226" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="net.fortuna.ical4j.model.property.XProperty" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/XProperty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="234" x="3839" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="net.fortuna.ical4j.model.property.Country" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Country.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="188" x="3611" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="net.fortuna.ical4j.model.property.Region" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Region.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="185" x="4113" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="net.fortuna.ical4j.model.property.Clazz" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Clazz.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="176" x="10224" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="net.fortuna.ical4j.model.property.Sequence" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Sequence.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="201" x="4338" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="net.fortuna.ical4j.model.property.Tel" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Tel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="162" x="4579" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="net.fortuna.ical4j.model.property.Url" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Url.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="161" x="4781" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="net.fortuna.ical4j.model.property.Comment" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Comment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="198" x="4982" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="net.fortuna.ical4j.model.property.Organizer" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Organizer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="278" width="199" x="5220" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="net.fortuna.ical4j.model.property.RRule" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/RRule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="181" x="5459" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="net.fortuna.ical4j.model.property.DateListProperty" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/DateListProperty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="314" width="373" x="10491" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="net.fortuna.ical4j.model.property.StreetAddress" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/StreetAddress.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="222" x="5680" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="net.fortuna.ical4j.model.property.CalScale.ImmutableCalScale" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/CalScale.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="173" x="10904" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="net.fortuna.ical4j.model.property.CalScale" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/CalScale.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="195" x="10904" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="net.fortuna.ical4j.model.property.Contact" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Contact.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="187" x="5942" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="net.fortuna.ical4j.model.property.Priority" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Priority.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="183" x="11149" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="net.fortuna.ical4j.model.property.RecurrenceId" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/RecurrenceId.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="219" x="12434" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="net.fortuna.ical4j.model.property.Version" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Version.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="314" width="222" x="11412" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="net.fortuna.ical4j.model.property.BusyType.ImmutableBusyType" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/BusyType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="177" x="9955" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="net.fortuna.ical4j.model.property.Name" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Name.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="178" x="6169" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="net.fortuna.ical4j.model.property.DtStart" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/DtStart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="182" x="12693" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="net.fortuna.ical4j.model.property.DtEnd" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/DtEnd.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="179" x="12915" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="net.fortuna.ical4j.model.property.Method" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Method.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="186" x="11684" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="net.fortuna.ical4j.model.property.Categories" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Categories.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="215" x="6387" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="net.fortuna.ical4j.model.property.UtcProperty" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/UtcProperty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="298" x="11888" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="net.fortuna.ical4j.model.property.Created" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Created.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="210" x="11888" y="715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="net.fortuna.ical4j.model.property.Resources" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Resources.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="214" x="6642" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="net.fortuna.ical4j.model.property.Clazz.ImmutableClazz" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Clazz.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="159" x="10224" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="net.fortuna.ical4j.model.property.LocationType" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/LocationType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="280" x="6896" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="net.fortuna.ical4j.model.property.Locality" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Locality.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="187" x="7216" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="net.fortuna.ical4j.model.property.Action.ImmutableAction" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Action.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="159" x="2541" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="net.fortuna.ical4j.model.property.Repeat" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Repeat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="185" x="7443" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="net.fortuna.ical4j.model.property.ExDate" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/ExDate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="198" x="10666" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="net.fortuna.ical4j.model.property.Summary" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Summary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="197" x="7915" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="net.fortuna.ical4j.model.property.Description" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Description.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="207" x="7668" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="net.fortuna.ical4j.model.property.Method.ImmutableMethod" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Method.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="164" x="11684" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="net.fortuna.ical4j.model.property.RelatedTo" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/RelatedTo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="202" x="8152" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="net.fortuna.ical4j.model.property.RequestStatus" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/RequestStatus.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="440" width="295" x="8394" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="net.fortuna.ical4j.model.property.PercentComplete" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/PercentComplete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="240" x="8972" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="net.fortuna.ical4j.model.property.DateProperty" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/DateProperty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="368" width="306" x="12434" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="net.fortuna.ical4j.model.property.DtStamp" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/DtStamp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="213" x="12138" y="715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="net.fortuna.ical4j.model.property.Version.ImmutableVersion" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Version.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="173" x="11412" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="net.fortuna.ical4j.model.property.TzOffsetFrom" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/TzOffsetFrom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="278" width="234" x="9252" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="net.fortuna.ical4j.model.property.Status" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Status.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="179" x="13134" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="net.fortuna.ical4j.model.property.ProdId" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/ProdId.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="181" x="9526" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="net.fortuna.ical4j.model.property.Trigger" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Trigger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="314" width="205" x="12391" y="715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="net.fortuna.ical4j.model.property.Transp.ImmutableTransp" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/Transp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="161" x="8729" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="net.fortuna.ical4j.model.property.TzId" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/property/TzId.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="168" x="9747" y="-101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="71" language="java" name="net.fortuna.ical4j.model" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="186" x="75" y="313"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="72" language="java" name="net.fortuna.ical4j.model.parameter" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/parameter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="258" x="7321" y="199"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="73" language="java" name="net.fortuna.ical4j.model.component" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/model/component" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="268" x="7619" y="199"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="74" language="java" name="net.fortuna.ical4j.util" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/util" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="166" x="7608" y="360"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="75" language="java" name="net.fortuna.ical4j.filter" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/filter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="175" x="7814" y="360"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="76" language="java" name="net.fortuna.ical4j.data" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/data" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="174" x="8029" y="360"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="77" language="java" name="net.fortuna.ical4j.transform" project="iCal4j" 
+    file="/iCal4j/src/net/fortuna/ical4j/transform" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="210" x="8243" y="360"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <association id="78">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="79" name="REQUEST"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="82" name="VTODO_IN_PROCESS"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="84">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="85">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="86" name="VTODO_COMPLETED"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="89" name="VTODO_NEEDS_ACTION"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="92" name="TRANSPARENT"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="95" name="DISPLAY"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="98" name="CONFIDENTIAL"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="101" name="LOW"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="103">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="104" name="BUSY_UNAVAILABLE"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="106">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="64"/>  
+  </nesting>  
+  <nesting id="107">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="58"/>  
+  </nesting>  
+  <generalization id="108">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="40"/>  
+  </generalization>  
+  <association id="109">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="110" name="REPLY"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="112">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <association id="113">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="114" name="VJOURNAL_FINAL"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="117" name="VTODO_CANCELLED"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="119">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <association id="120">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="121" name="UNDEFINED"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="123">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <generalization id="124">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <association id="125">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="126" name="ADD"/>      
+      <multiplicity id="127" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="128">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <generalization id="129">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="130">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="131" name="GREGORIAN"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="133">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="134">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="62"/>  
+  </generalization>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <association id="136">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="137" name="PRIVATE"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="139">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="140" name="VEVENT_CANCELLED"/>      
+      <multiplicity id="141" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="143" name="BUSY_TENTATIVE"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="145">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="50"/>  
+  </nesting>  
+  <association id="146">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="147" name="HIGH"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="149">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="150" name="PROCEDURE"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="152">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="66"/>  
+  </generalization>  
+  <association id="153">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="154" name="BUSY"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="156">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="157" name="PUBLIC"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="159">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <nesting id="160">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="35"/>  
+  </nesting>  
+  <association id="161">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="162" name="VERSION_2_0"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="164">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="165" name="VJOURNAL_CANCELLED"/>      
+      <multiplicity id="166" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="167">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="168">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="169" name="EMAIL"/>      
+      <multiplicity id="170" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="171">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="69"/>  
+  </nesting>  
+  <association id="172">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="173" name="REFRESH"/>      
+      <multiplicity id="174" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="175">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="176" name="COUNTER"/>      
+      <multiplicity id="177" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="178">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="62"/>  
+  </generalization>  
+  <association id="179">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="180" name="DECLINE_COUNTER"/>      
+      <multiplicity id="181" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="182">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="41"/>  
+  </nesting>  
+  <nesting id="183">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="53"/>  
+  </nesting>  
+  <generalization id="184">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <association id="185">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="186" name="VEVENT_CONFIRMED"/>      
+      <multiplicity id="187" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="188">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="189" name="VJOURNAL_DRAFT"/>      
+      <multiplicity id="190" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="191">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="192">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <association id="193">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="194" name="PUBLISH"/>      
+      <multiplicity id="195" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="196">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="62"/>  
+  </generalization>  
+  <association id="197">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="198" name="MEDIUM"/>      
+      <multiplicity id="199" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="200">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="201" name="VEVENT_TENTATIVE"/>      
+      <multiplicity id="202" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="203">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="204" name="CANCEL"/>      
+      <multiplicity id="205" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="206">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <association id="207">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="208" name="OPAQUE"/>      
+      <multiplicity id="209" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="210">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="211" name="AUDIO"/>      
+      <multiplicity id="212" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="213">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

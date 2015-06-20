@@ -35,9 +35,7 @@ import java.text.ParseException;
 
 import net.fortuna.ical4j.model.Date;
 import net.fortuna.ical4j.model.ParameterList;
-import net.fortuna.ical4j.model.PropertyFactoryImpl;
 import net.fortuna.ical4j.model.TimeZone;
-import net.fortuna.ical4j.model.ValidationException;
 
 /**
  * $Id$
@@ -65,12 +63,12 @@ import net.fortuna.ical4j.model.ValidationException;
  *     
  *        Description: Within the &quot;VEVENT&quot; calendar component, this property
  *        defines the date and time by which the event ends. The value MUST be
- *        later in time than the value of the &quot;DTSTART&quot; property.
+ *        later in time than the value of the &quot;DtEnd&quot; property.
  *     
  *        Within the &quot;VFREEBUSY&quot; calendar component, this property defines the
  *        end date and time for the free or busy time information. The time
  *        MUST be specified in the UTC time format. The value MUST be later in
- *        time than the value of the &quot;DTSTART&quot; property.
+ *        time than the value of the &quot;DtEnd&quot; property.
  *     
  *        Format Definition: The property is defined by the following notation:
  *     
@@ -101,108 +99,49 @@ import net.fortuna.ical4j.model.ValidationException;
  * 
  * <pre>
  *      // construct an end date from a start date and a duration..
- *      DtStart start = ...
+ *      DtEnd start = ...
  *      Dur oneWeek = new Dur(&quot;1W&quot;);
  *      DtEnd end = new DtEnd(oneWeek.getTime(start.getDate());
  * </pre>
  * 
  * @author Ben Fortuna
  */
-public class DtEnd extends DateProperty {
+public class DtEnd extends DtStartEnd {
+	
+	private static final long serialVersionUID = -5707097476081111815L;
+	private static final String property = DTEND;
 
-    private static final long serialVersionUID = 8107416684717228297L;
-
-    /**
-     * Default constructor. The time value is initialised to the time of instantiation.
-     */
     public DtEnd() {
-        super(DTEND, PropertyFactoryImpl.getInstance());
-    }
+		super(property);
+	}
 
-    /**
-     * Creates a new DTEND property initialised with the specified timezone.
-     * @param timezone initial timezone
-     */
-    public DtEnd(TimeZone timezone) {
-        super(DTEND, timezone, PropertyFactoryImpl.getInstance());
-    }
+	public DtEnd(Date time, boolean utc) {
+		super(property, time, utc);
+	}
 
-    /**
-     * Creates a new instance initialised with the parsed value.
-     * @param value the DTEND value string to parse
-     * @throws ParseException where the specified string is not a valid DTEND value representation
-     */
-    public DtEnd(final String value) throws ParseException {
-        super(DTEND, PropertyFactoryImpl.getInstance());
-        setValue(value);
-    }
+	public DtEnd(Date aDate) {
+		super(property, aDate);
+	}
 
-    /**
-     * Creates a new DTEND property initialised with the specified timezone and value.
-     * @param value a string representation of a DTEND value
-     * @param timezone initial timezone
-     * @throws ParseException where the specified value is not a valid string
-     * representation
-     */
-    public DtEnd(String value, TimeZone timezone) throws ParseException {
-        super(DTEND, timezone, PropertyFactoryImpl.getInstance());
-        setValue(value);
-    }
+	public DtEnd(ParameterList aList, Date aDate) {
+		super(property, aList, aDate);
+	}
 
-    /**
-     * @param aList a list of parameters for this component
-     * @param aValue a value string for this component
-     * @throws ParseException when the specified string is not a valid date/date-time representation
-     */
-    public DtEnd(final ParameterList aList, final String aValue)
-            throws ParseException {
-        super(DTEND, aList, PropertyFactoryImpl.getInstance());
-        setValue(aValue);
-    }
+	public DtEnd(ParameterList aList, String aValue)
+			throws ParseException {
+		super(property, aList, aValue);
+	}
 
-    /**
-     * Constructor. Date or Date-Time format is determined based on the presence of a VALUE parameter.
-     * @param aDate a date
-     */
-    public DtEnd(final Date aDate) {
-        super(DTEND, PropertyFactoryImpl.getInstance());
-        setDate(aDate);
-    }
+	public DtEnd(String value, TimeZone timezone)
+			throws ParseException {
+		super(property, value, timezone);
+	}
 
-    /**
-     * Constructs a new DtEnd with the specified time.
-     * @param time the time of the DtEnd
-     * @param utc specifies whether time is UTC
-     */
-    public DtEnd(final Date time, final boolean utc) {
-        super(DTEND, PropertyFactoryImpl.getInstance());
-        setDate(time);
-        setUtc(utc);
-    }
+	public DtEnd(String aValue) throws ParseException {
+		super(property, aValue);
+	}
 
-    /**
-     * Constructor. Date or Date-Time format is determined based on the presence of a VALUE parameter.
-     * @param aList a list of parameters for this component
-     * @param aDate a date
-     */
-    public DtEnd(final ParameterList aList, final Date aDate) {
-        super(DTEND, aList, PropertyFactoryImpl.getInstance());
-        setDate(aDate);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public final void validate() throws ValidationException {
-        super.validate();
-
-        /*
-         * ; the following are optional, ; but MUST NOT occur more than once (";" "VALUE" "=" ("DATE-TIME" / "DATE")) /
-         * (";" tzidparam) /
-         */
-
-        /*
-         * ; the following is optional, ; and MAY occur more than once (";" xparam)
-         */
-    }
+	public DtEnd(TimeZone timezone) {
+		super(property, timezone);
+	}   
 }
