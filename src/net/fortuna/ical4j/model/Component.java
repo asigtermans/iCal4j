@@ -45,6 +45,7 @@ import net.fortuna.ical4j.model.property.ExDate;
 import net.fortuna.ical4j.model.property.ExRule;
 import net.fortuna.ical4j.model.property.RDate;
 import net.fortuna.ical4j.model.property.RRule;
+import net.fortuna.ical4j.util.Calendars;
 import net.fortuna.ical4j.util.Strings;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
@@ -411,5 +412,11 @@ public abstract class Component implements Serializable {
         }
 
         return recurrenceSet;
+    }
+    
+    public final Calendar publish (final Component component) {
+    	Calendar calendar = Calendars.wrap(component);
+    	calendar.publish();
+    	return calendar;
     }
 }

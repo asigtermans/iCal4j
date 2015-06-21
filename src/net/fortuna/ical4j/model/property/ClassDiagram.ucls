@@ -661,408 +661,403 @@
     <position height="50" width="174" x="8029" y="360"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <package id="77" language="java" name="net.fortuna.ical4j.transform" project="iCal4j" 
-    file="/iCal4j/src/net/fortuna/ical4j/transform" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="50" width="210" x="8243" y="360"/>    
-    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
-  </package>  
-  <association id="78">    
+  <association id="77">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="79" name="REQUEST"/>      
-      <multiplicity id="80" minimum="0" maximum="1"/>    
+      <attribute id="78" name="REQUEST"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="81">    
+  <association id="80">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="82" name="VTODO_IN_PROCESS"/>      
-      <multiplicity id="83" minimum="0" maximum="1"/>    
+      <attribute id="81" name="VTODO_IN_PROCESS"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="84">    
+  <generalization id="83">    
     <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="38"/>  
   </generalization>  
-  <association id="85">    
+  <association id="84">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="86" name="VTODO_COMPLETED"/>      
-      <multiplicity id="87" minimum="0" maximum="1"/>    
+      <attribute id="85" name="VTODO_COMPLETED"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="88">    
+  <association id="87">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="89" name="VTODO_NEEDS_ACTION"/>      
-      <multiplicity id="90" minimum="0" maximum="1"/>    
+      <attribute id="88" name="VTODO_NEEDS_ACTION"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="91">    
+  <association id="90">    
     <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="92" name="TRANSPARENT"/>      
-      <multiplicity id="93" minimum="0" maximum="1"/>    
+      <attribute id="91" name="TRANSPARENT"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="14" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="94">    
+  <association id="93">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="95" name="DISPLAY"/>      
-      <multiplicity id="96" minimum="0" maximum="1"/>    
+      <attribute id="94" name="DISPLAY"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="97">    
+  <association id="96">    
     <end type="SOURCE" refId="26" navigable="false">      
-      <attribute id="98" name="CONFIDENTIAL"/>      
-      <multiplicity id="99" minimum="0" maximum="1"/>    
+      <attribute id="97" name="CONFIDENTIAL"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="26" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="100">    
+  <association id="99">    
     <end type="SOURCE" refId="38" navigable="false">      
-      <attribute id="101" name="LOW"/>      
-      <multiplicity id="102" minimum="0" maximum="1"/>    
+      <attribute id="100" name="LOW"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="38" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="103">    
+  <association id="102">    
     <end type="SOURCE" refId="16" navigable="false">      
-      <attribute id="104" name="BUSY_UNAVAILABLE"/>      
-      <multiplicity id="105" minimum="0" maximum="1"/>    
+      <attribute id="103" name="BUSY_UNAVAILABLE"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="16" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="106">    
+  <nesting id="105">    
     <end type="SOURCE" refId="40"/>    
     <end type="TARGET" refId="64"/>  
   </nesting>  
-  <nesting id="107">    
+  <nesting id="106">    
     <end type="SOURCE" refId="45"/>    
     <end type="TARGET" refId="58"/>  
   </nesting>  
-  <generalization id="108">    
+  <generalization id="107">    
     <end type="SOURCE" refId="64"/>    
     <end type="TARGET" refId="40"/>  
   </generalization>  
-  <association id="109">    
+  <association id="108">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="110" name="REPLY"/>      
-      <multiplicity id="111" minimum="0" maximum="1"/>    
+      <attribute id="109" name="REPLY"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="112">    
+  <generalization id="111">    
     <end type="SOURCE" refId="55"/>    
     <end type="TARGET" refId="33"/>  
   </generalization>  
-  <association id="113">    
+  <association id="112">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="114" name="VJOURNAL_FINAL"/>      
-      <multiplicity id="115" minimum="0" maximum="1"/>    
+      <attribute id="113" name="VJOURNAL_FINAL"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="116">    
+  <association id="115">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="117" name="VTODO_CANCELLED"/>      
-      <multiplicity id="118" minimum="0" maximum="1"/>    
+      <attribute id="116" name="VTODO_CANCELLED"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="119">    
+  <generalization id="118">    
     <end type="SOURCE" refId="50"/>    
     <end type="TARGET" refId="26"/>  
   </generalization>  
-  <association id="120">    
+  <association id="119">    
     <end type="SOURCE" refId="38" navigable="false">      
-      <attribute id="121" name="UNDEFINED"/>      
-      <multiplicity id="122" minimum="0" maximum="1"/>    
+      <attribute id="120" name="UNDEFINED"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="38" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="123">    
+  <generalization id="122">    
     <end type="SOURCE" refId="17"/>    
     <end type="TARGET" refId="47"/>  
   </generalization>  
-  <generalization id="124">    
+  <generalization id="123">    
     <end type="SOURCE" refId="68"/>    
     <end type="TARGET" refId="47"/>  
   </generalization>  
-  <association id="125">    
+  <association id="124">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="126" name="ADD"/>      
-      <multiplicity id="127" minimum="0" maximum="1"/>    
+      <attribute id="125" name="ADD"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="128">    
+  <generalization id="127">    
     <end type="SOURCE" refId="48"/>    
     <end type="TARGET" refId="47"/>  
   </generalization>  
-  <generalization id="129">    
+  <generalization id="128">    
     <end type="SOURCE" refId="53"/>    
     <end type="TARGET" refId="6"/>  
   </generalization>  
-  <association id="130">    
+  <association id="129">    
     <end type="SOURCE" refId="36" navigable="false">      
-      <attribute id="131" name="GREGORIAN"/>      
-      <multiplicity id="132" minimum="0" maximum="1"/>    
+      <attribute id="130" name="GREGORIAN"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="36" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="133">    
+  <generalization id="132">    
     <end type="SOURCE" refId="41"/>    
     <end type="TARGET" refId="16"/>  
   </generalization>  
-  <generalization id="134">    
+  <generalization id="133">    
     <end type="SOURCE" refId="39"/>    
     <end type="TARGET" refId="62"/>  
   </generalization>  
-  <generalization id="135">    
+  <generalization id="134">    
     <end type="SOURCE" refId="63"/>    
     <end type="TARGET" refId="47"/>  
   </generalization>  
-  <association id="136">    
+  <association id="135">    
     <end type="SOURCE" refId="26" navigable="false">      
-      <attribute id="137" name="PRIVATE"/>      
-      <multiplicity id="138" minimum="0" maximum="1"/>    
+      <attribute id="136" name="PRIVATE"/>      
+      <multiplicity id="137" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="26" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="139">    
+  <association id="138">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="140" name="VEVENT_CANCELLED"/>      
-      <multiplicity id="141" minimum="0" maximum="1"/>    
+      <attribute id="139" name="VEVENT_CANCELLED"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="142">    
+  <association id="141">    
     <end type="SOURCE" refId="16" navigable="false">      
-      <attribute id="143" name="BUSY_TENTATIVE"/>      
-      <multiplicity id="144" minimum="0" maximum="1"/>    
+      <attribute id="142" name="BUSY_TENTATIVE"/>      
+      <multiplicity id="143" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="16" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="145">    
+  <nesting id="144">    
     <end type="SOURCE" refId="26"/>    
     <end type="TARGET" refId="50"/>  
   </nesting>  
-  <association id="146">    
+  <association id="145">    
     <end type="SOURCE" refId="38" navigable="false">      
-      <attribute id="147" name="HIGH"/>      
-      <multiplicity id="148" minimum="0" maximum="1"/>    
+      <attribute id="146" name="HIGH"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="38" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="149">    
+  <association id="148">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="150" name="PROCEDURE"/>      
-      <multiplicity id="151" minimum="0" maximum="1"/>    
+      <attribute id="149" name="PROCEDURE"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="152">    
+  <generalization id="151">    
     <end type="SOURCE" refId="15"/>    
     <end type="TARGET" refId="66"/>  
   </generalization>  
-  <association id="153">    
+  <association id="152">    
     <end type="SOURCE" refId="16" navigable="false">      
-      <attribute id="154" name="BUSY"/>      
-      <multiplicity id="155" minimum="0" maximum="1"/>    
+      <attribute id="153" name="BUSY"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="16" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="156">    
+  <association id="155">    
     <end type="SOURCE" refId="26" navigable="false">      
-      <attribute id="157" name="PUBLIC"/>      
-      <multiplicity id="158" minimum="0" maximum="1"/>    
+      <attribute id="156" name="PUBLIC"/>      
+      <multiplicity id="157" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="26" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="159">    
+  <nesting id="158">    
     <end type="SOURCE" refId="66"/>    
     <end type="TARGET" refId="15"/>  
   </nesting>  
-  <nesting id="160">    
+  <nesting id="159">    
     <end type="SOURCE" refId="36"/>    
     <end type="TARGET" refId="35"/>  
   </nesting>  
-  <association id="161">    
+  <association id="160">    
     <end type="SOURCE" refId="40" navigable="false">      
-      <attribute id="162" name="VERSION_2_0"/>      
-      <multiplicity id="163" minimum="0" maximum="1"/>    
+      <attribute id="161" name="VERSION_2_0"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="40" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="164">    
+  <association id="163">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="165" name="VJOURNAL_CANCELLED"/>      
-      <multiplicity id="166" minimum="0" maximum="1"/>    
+      <attribute id="164" name="VJOURNAL_CANCELLED"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="167">    
+  <nesting id="166">    
     <end type="SOURCE" refId="38"/>    
     <end type="TARGET" refId="8"/>  
   </nesting>  
-  <association id="168">    
+  <association id="167">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="169" name="EMAIL"/>      
-      <multiplicity id="170" minimum="0" maximum="1"/>    
+      <attribute id="168" name="EMAIL"/>      
+      <multiplicity id="169" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="171">    
+  <nesting id="170">    
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="69"/>  
   </nesting>  
-  <association id="172">    
+  <association id="171">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="173" name="REFRESH"/>      
-      <multiplicity id="174" minimum="0" maximum="1"/>    
+      <attribute id="172" name="REFRESH"/>      
+      <multiplicity id="173" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="175">    
+  <association id="174">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="176" name="COUNTER"/>      
-      <multiplicity id="177" minimum="0" maximum="1"/>    
+      <attribute id="175" name="COUNTER"/>      
+      <multiplicity id="176" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="178">    
+  <generalization id="177">    
     <end type="SOURCE" refId="47"/>    
     <end type="TARGET" refId="62"/>  
   </generalization>  
-  <association id="179">    
+  <association id="178">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="180" name="DECLINE_COUNTER"/>      
-      <multiplicity id="181" minimum="0" maximum="1"/>    
+      <attribute id="179" name="DECLINE_COUNTER"/>      
+      <multiplicity id="180" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="182">    
+  <nesting id="181">    
     <end type="SOURCE" refId="16"/>    
     <end type="TARGET" refId="41"/>  
   </nesting>  
-  <nesting id="183">    
+  <nesting id="182">    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="53"/>  
   </nesting>  
-  <generalization id="184">    
+  <generalization id="183">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="33"/>  
   </generalization>  
-  <association id="185">    
+  <association id="184">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="186" name="VEVENT_CONFIRMED"/>      
-      <multiplicity id="187" minimum="0" maximum="1"/>    
+      <attribute id="185" name="VEVENT_CONFIRMED"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="188">    
+  <association id="187">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="189" name="VJOURNAL_DRAFT"/>      
-      <multiplicity id="190" minimum="0" maximum="1"/>    
+      <attribute id="188" name="VJOURNAL_DRAFT"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="191">    
+  <generalization id="190">    
     <end type="SOURCE" refId="69"/>    
     <end type="TARGET" refId="14"/>  
   </generalization>  
-  <generalization id="192">    
+  <generalization id="191">    
     <end type="SOURCE" refId="58"/>    
     <end type="TARGET" refId="45"/>  
   </generalization>  
-  <association id="193">    
+  <association id="192">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="194" name="PUBLISH"/>      
-      <multiplicity id="195" minimum="0" maximum="1"/>    
+      <attribute id="193" name="PUBLISH"/>      
+      <multiplicity id="194" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="196">    
+  <generalization id="195">    
     <end type="SOURCE" refId="22"/>    
     <end type="TARGET" refId="62"/>  
   </generalization>  
-  <association id="197">    
+  <association id="196">    
     <end type="SOURCE" refId="38" navigable="false">      
-      <attribute id="198" name="MEDIUM"/>      
-      <multiplicity id="199" minimum="0" maximum="1"/>    
+      <attribute id="197" name="MEDIUM"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="38" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="200">    
+  <association id="199">    
     <end type="SOURCE" refId="66" navigable="false">      
-      <attribute id="201" name="VEVENT_TENTATIVE"/>      
-      <multiplicity id="202" minimum="0" maximum="1"/>    
+      <attribute id="200" name="VEVENT_TENTATIVE"/>      
+      <multiplicity id="201" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="66" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="203">    
+  <association id="202">    
     <end type="SOURCE" refId="45" navigable="false">      
-      <attribute id="204" name="CANCEL"/>      
-      <multiplicity id="205" minimum="0" maximum="1"/>    
+      <attribute id="203" name="CANCEL"/>      
+      <multiplicity id="204" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="45" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="206">    
+  <generalization id="205">    
     <end type="SOURCE" refId="35"/>    
     <end type="TARGET" refId="36"/>  
   </generalization>  
-  <association id="207">    
+  <association id="206">    
     <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="208" name="OPAQUE"/>      
-      <multiplicity id="209" minimum="0" maximum="1"/>    
+      <attribute id="207" name="OPAQUE"/>      
+      <multiplicity id="208" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="14" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="210">    
+  <association id="209">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="211" name="AUDIO"/>      
-      <multiplicity id="212" minimum="0" maximum="1"/>    
+      <attribute id="210" name="AUDIO"/>      
+      <multiplicity id="211" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="213">    
+  <generalization id="212">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="47"/>  
   </generalization>  

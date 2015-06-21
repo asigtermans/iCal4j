@@ -41,8 +41,10 @@ import net.fortuna.ical4j.model.component.CalendarComponent;
 import net.fortuna.ical4j.model.property.CalScale;
 import net.fortuna.ical4j.model.property.Method;
 import net.fortuna.ical4j.model.property.ProdId;
+import net.fortuna.ical4j.model.property.Sequence;
 import net.fortuna.ical4j.model.property.Version;
 import net.fortuna.ical4j.model.property.XProperty;
+import net.fortuna.ical4j.util.Calendars;
 import net.fortuna.ical4j.util.CompatibilityHints;
 import net.fortuna.ical4j.util.ComponentValidator;
 import net.fortuna.ical4j.util.PropertyValidator;
@@ -552,4 +554,37 @@ public class Calendar implements Serializable {
         return new HashCodeBuilder().append(getProperties()).append(
                 getComponents()).toHashCode();
     }
+    
+    public final void publish() {
+        PropertyList calProps = getProperties();
+
+        Property method = calProps.getProperty(Property.METHOD);
+
+        if (method != null) {
+            calProps.remove(method);
+        }
+
+        calProps.add(Method.PUBLISH);
+
+        // if a calendar component has already been published previously
+        // update the sequence number..
+        for (Iterator i = getComponents().iterator(); i.hasNext();) {
+            Component component = (Component) i.next();
+
+            PropertyList compProps = component.getProperties();
+
+            Sequence sequence = (Sequence) compProps
+                    .getProperty(Property.SEQUENCE);
+
+            if (sequence == null) {
+                compProps.add(new Sequence(0));
+            }
+            else {
+                compProps.remove(sequence);
+                compProps.add(new Sequence(sequence.getSequenceNo() + 1));
+            }
+        }
+    }
+    
+
 }
