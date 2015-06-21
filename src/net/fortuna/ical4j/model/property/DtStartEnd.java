@@ -41,14 +41,14 @@ import net.fortuna.ical4j.model.TimeZone;
 /**
  * Abstract class to implement code that is both in DtStart as well as in DtEnd
  */
-public abstract class DtStartEnd extends DateProperty {
+public class DtStartEnd extends DateProperty {
 
     private static final long serialVersionUID = -5707097476081111815L;
 
     /**
      * Default constructor. The time value is initialised to the time of instantiation.
      */
-    protected DtStartEnd(String property) {
+    public DtStartEnd(String property) {
         super(property, PropertyFactoryImpl.getInstance());
     }
 
@@ -56,7 +56,7 @@ public abstract class DtStartEnd extends DateProperty {
      * Creates a new DTSTART property initialised with the specified timezone.
      * @param timezone initial timezone
      */
-    protected DtStartEnd(String property, TimeZone timezone) {
+    public DtStartEnd(String property, TimeZone timezone) {
         super(property, timezone, PropertyFactoryImpl.getInstance());
     }
 
@@ -64,7 +64,7 @@ public abstract class DtStartEnd extends DateProperty {
      * @param aValue a value string for this component
      * @throws ParseException where the specified value string is not a valid date-time/date representation
      */
-    protected DtStartEnd(String property, final String aValue) throws ParseException {
+    public DtStartEnd(String property, final String aValue) throws ParseException {
         super(property, PropertyFactoryImpl.getInstance());
         setValue(aValue);
     }
@@ -76,7 +76,7 @@ public abstract class DtStartEnd extends DateProperty {
      * @throws ParseException where the specified value is not a valid string
      * representation
      */
-    protected DtStartEnd(String property, String value, TimeZone timezone) throws ParseException {
+    public DtStartEnd(String property, String value, TimeZone timezone) throws ParseException {
         super(property, timezone, PropertyFactoryImpl.getInstance());
         setValue(value);
     }
@@ -86,7 +86,7 @@ public abstract class DtStartEnd extends DateProperty {
      * @param aValue a value string for this component
      * @throws ParseException where the specified value string is not a valid date-time/date representation
      */
-    protected DtStartEnd(String property, final ParameterList aList, final String aValue)
+    public DtStartEnd(String property, final ParameterList aList, final String aValue)
             throws ParseException {
         super(property, aList, PropertyFactoryImpl.getInstance());
         setValue(aValue);
@@ -96,7 +96,7 @@ public abstract class DtStartEnd extends DateProperty {
      * Constructor. Date or Date-Time format is determined based on the presence of a VALUE parameter.
      * @param aDate a date
      */
-    protected DtStartEnd(String property, final Date aDate) {
+    public DtStartEnd(String property, final Date aDate) {
         super(property, PropertyFactoryImpl.getInstance());
         setDate(aDate);
     }
@@ -106,7 +106,7 @@ public abstract class DtStartEnd extends DateProperty {
      * @param time the time of the DtStart
      * @param utc specifies whether time is UTC
      */
-    protected DtStartEnd(String property, final Date time, final boolean utc) {
+    public DtStartEnd(String property, final Date time, final boolean utc) {
         super(property, PropertyFactoryImpl.getInstance());
         setDate(time);
         setUtc(utc);
@@ -117,7 +117,7 @@ public abstract class DtStartEnd extends DateProperty {
      * @param aList a list of parameters for this component
      * @param aDate a date
      */
-    protected DtStartEnd(String property, final ParameterList aList, final Date aDate) {
+    public DtStartEnd(String property, final ParameterList aList, final Date aDate) {
         super(property, aList, PropertyFactoryImpl.getInstance());
         setDate(aDate);
     }
